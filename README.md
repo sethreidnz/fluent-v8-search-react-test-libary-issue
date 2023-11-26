@@ -1,6 +1,6 @@
 # fluent-v8-search-react-test-libary-issue
 
-This repository is a minimal reproduction of an issue with the `onSearch` callback from "@fluentui/react" `SearchBox` that shows that when testing with react testing library the `onSearch` prop doesn't react to the enter key, while a regular `onKeyPress` does.
+This repository is a minimal reproduction of an issue with the `onSearch` callback from "@fluentui/react" `SearchBox` that shows that when testing with react testing library the `onSearch` prop doesn't react to the enter key, while a regular `onKeyUp` does.
 
 ## Running the tests
 
