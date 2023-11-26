@@ -14,7 +14,7 @@ export function FluentSearch({ onSearch, userOnSearch }: FluentSearchProps) {
   }
 
   if (userOnSearch) {
-    return <SearchBox onKeyPress={handleKeyPress} />;
+    return <SearchBox onKeyUp={handleKeyPress} />;
   }
 
   return <SearchBox onSearch={onSearch} />;
